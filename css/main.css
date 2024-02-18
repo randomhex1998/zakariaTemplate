@@ -101,3 +101,10 @@ a {
 .active-mobile-menu {
     right: 0 !important;
 }
+
+.cat-box:hover {
+    border-radius: 15px !important;
+}
+.cat-box:hover img {
+    filter: blur(4px);
+}
