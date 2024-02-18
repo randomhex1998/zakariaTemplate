@@ -17,6 +17,8 @@
     />
 
     <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
 
@@ -58,7 +60,7 @@
     <!-- desktop menu -->
 
     <!-- mobile menu -->
-    <nav class="bg-white d-lg-none">
+    <nav class="bg-white d-lg-none mobile">
         <section class="bg-white d-flex justify-content-center align-items-center py-3">
             <div class=" bg-input d-flex justify-content-center align-items-center h-5050 rounded overflow-hidden w-1010 mx-2">
                 <input type="text" class="h-5050 bg-input border-0 px-2 w-90" dir="rtl" placeholder="متن جستجوری شما ...">
@@ -73,7 +75,7 @@
                 <a href="#" class="text-black"><i style="font-size: 20px;" class="fa-regular fa-heart"></i></a>
                 <a href="#" class="text-black bag-shop">
                     <i style="font-size: 20px;" class="fa-solid fa-bag-shopping"></i>
-                    <div class="rounded-5 bg-warning shop-num d-flex justify-content-center align-items-center" style="width: 20px; height: 20px; line-height: 1.5;">0</div>
+                    <div class="rounded-5 bg-purple shop-num d-flex justify-content-center align-items-center text-white" style="width: 20px; height: 20px; line-height: 1.5;">0</div>
                 </a>
             </div>
             <div class="bars">
@@ -92,10 +94,24 @@
     </nav>
     <!-- mobile menu -->
 
+    <!-- product slider -->
+    <div class="container slider py-4">
+        <div class="swiper mySwiper rounded">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/ezgif-3-1f784865a7.jpg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./img/we1.jpg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./img/fgt54-1-scaled.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+    <!-- product slider -->
+
 
 
     <!-- js scripts -->
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
