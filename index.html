@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="container ">
+
+    <!-- desktop menu -->
+    <nav class="container dsk-menu d-none d-lg-block">
         <section class="my-4 bg-white rounded-4 p-4 shadow-sm d-flex justify-content-between align-items-center flex-row-reverse">
             <img src="./img/logo.png" alt="logo">
             <div class="d-flex align-items-center gap-3">
@@ -39,10 +41,58 @@
             </div>
 
         </section>
-        <section>
-            
+        <section class="d-flex justify-content-between align-items-center flex-row-reverse px-3">
+            <div class="d-flex align-items-center">
+                <a href="#" class="text-color">دسته بندی</a>
+                <a href="#" class="text-color px-3">وسایل خانه</a>
+                <a href="#" class="text-color px-3">لوازم شخصی</a>
+                <a href="#" class="text-color px-3">لوازم دیجیتال</a>
+                <a href="#" class="text-color">درباره ما</a>
+            </div>
+            <a href="#" class="d-flex flex-row-reverse align-items-center gap-3">
+                <i class="fa-regular fa-bell text-black"></i>
+                <div class="w-300 bg-purple rounded-5 px-3 py-1 text-white">اطلاعیه ها</div>
+            </a>
         </section>
+    </nav>
+    <!-- desktop menu -->
+
+    <!-- mobile menu -->
+    <nav class="bg-white d-lg-none">
+        <section class="bg-white d-flex justify-content-center align-items-center py-3">
+            <div class=" bg-input d-flex justify-content-center align-items-center h-5050 rounded overflow-hidden w-1010 mx-2">
+                <input type="text" class="h-5050 bg-input border-0 px-2 w-90" dir="rtl" placeholder="متن جستجوری شما ...">
+                <a href="#" class="btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </section>
+
+        <section class="border d-flex justify-content-between align-items-center p-3">
+
+            <div class="d-flex align-items-center gap-4">
+                <a href="#" class="text-black"><i style="font-size: 20px;" class="fa-regular fa-user"></i></a>
+                <a href="#" class="text-black"><i style="font-size: 20px;" class="fa-regular fa-heart"></i></a>
+                <a href="#" class="text-black bag-shop">
+                    <i style="font-size: 20px;" class="fa-solid fa-bag-shopping"></i>
+                    <div class="rounded-5 bg-warning shop-num d-flex justify-content-center align-items-center" style="width: 20px; height: 20px; line-height: 1.5;">0</div>
+                </a>
+            </div>
+            <div class="bars">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+    <div class="wrapper">
+        <div class="mobile-menu">
+            <a href="#" class="border-bottom">صفحه اصلی</a>
+            <a href="#" class="border-bottom">موبایل ها</a>
+            <a href="#" class="border-bottom">لپ تاپ ها</a>
+            <a href="#" class="border-bottom">گجت ها</a>
+        </div>
     </div>
+        </section>
+    </nav>
+    <!-- mobile menu -->
+
+
 
     <!-- js scripts -->
     <script src="./js/jquery-3.7.1.min.js"></script>

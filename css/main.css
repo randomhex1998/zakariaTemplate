@@ -2,14 +2,18 @@
 
 * {
     font-family: "Vazirmatn", sans-serif;
+    transition: all 0.4s linear !important;
 }
 
 body {
     background-color: #f2f6fc;
-    
 }
 
-a{
+li {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -25,13 +29,75 @@ a{
     align-items: center;
 }
 
-.w-3030{
+.w-3030 {
     width: 30px;
     height: 20px;
     text-align: center;
 }
-
-.bg-purple{
-    background-color: #793ce3;
+.w-90 {
+    width: 90%;
+}
+.w-1010 {
+    width: 500px;
 }
 
+.h-5050 {
+    height: 40px !important;
+}
+
+.bg-purple {
+    background-color: #8e44ad;
+}
+
+.text-color {
+    color: #3b4359;
+}
+
+.bg-input {
+    background-color: #f2f6fc;
+    outline: none;
+}
+
+.bag-shop {
+    position: relative;
+}
+
+.shop-num {
+    position: absolute;
+    right: -16px;
+    top: 10px;
+    bottom: 0;
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: -200000px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.mobile-menu {
+    position: fixed;
+    right: -200000px;
+    width: 60%;
+    height: 100%;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: flex-start;
+}
+
+.mobile-menu a {
+    width: 100%;
+    color: black !important;
+    padding: 1rem;
+}
+
+.active-mobile-menu {
+    right: 0 !important;
+}
