@@ -13,7 +13,7 @@ j(document).ready(function () {
 
 
     //swiper slider
-    var swiper = new Swiper(".mySwiper", {
+    let swiper = new Swiper(".mySwiper", {
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,
@@ -22,4 +22,16 @@ j(document).ready(function () {
             delay: 3000,
         },
     });
+
+
+    var swiperSec = new Swiper(".myswp", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pn",
+            clickable: true,
+        },
+    });
+
+
 })

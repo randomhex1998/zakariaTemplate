@@ -17,8 +17,16 @@ a {
     text-decoration: none;
 }
 
+p{
+    margin-bottom: 0 !important;
+}
+
 .border-gray {
     border-color: #ecf0f7;
+}
+
+.off-text-color{
+    color: #b1b6c4;
 }
 
 .w-5050 {
@@ -110,4 +118,30 @@ a {
 }
 .cat-box:hover img {
     filter: blur(4px);
+}
+
+.under-box-off {
+    position: relative;
+    z-index: 1;
+    height: 290px;
+    margin: 5rem 0;
+    border-radius: 15px;
+}
+
+.over-box-off{
+    position: absolute;
+    right: 15px;
+    left: 15px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.off-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.off-paragraph{
+    border-bottom: 1px dashed #3b4359;
+    line-height: 2;
 }
