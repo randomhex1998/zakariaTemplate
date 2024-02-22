@@ -25,7 +25,15 @@ j(document).ready(function () {
 
 
     var swiperSec = new Swiper(".myswp", {
-        slidesPerView: 3,
+        slidesPerView: 4,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pn",
+            clickable: true,
+        },
+    });
+    var swiperSec = new Swiper(".myswpMobile", {
+        slidesPerView: 2,
         spaceBetween: 30,
         pagination: {
             el: ".swiper-pn",
