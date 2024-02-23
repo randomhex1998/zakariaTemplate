@@ -74,7 +74,20 @@ j(document).ready(function () {
                 slidesPerView: 5,
                 spaceBetween: 40
             }
-          }
+          },
+          autoplay: {
+            delay: 3000,
+        },
+      });
+
+      var logoSwiper = new Swiper(".logoSwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
       });
 
 
