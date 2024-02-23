@@ -1,0 +1,27 @@
+    <div class="container rounded-4 bg-white my-4 p-4">
+
+
+
+      <div class="d-flex justify-content-between align-items-center">
+
+        <a href="#" class="d-flex align-items-center gap-3">
+          <div class="rounded-5 w-5050 shadow bg-white purple-hover text-black"><i class="fa-solid fa-arrow-left "></i></div>
+          <p class="text-color">محصولات بیشتر</p>
+        </a>
+
+
+        <div>
+
+          <div class="d-flex align-items-center justify-content-end gap-2">
+            <p class="text-end">اخرین موبایل ها</p>
+            <div class="w-5050 text-white shadow rounded-5 bg-purple"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          </div>
+          <p class="text-end mt-3" style="font-size: 14px;">از برند های سامسونگ و اپل</p>
+
+        </div>
+
+      </div>
+
+
+
+    </div>

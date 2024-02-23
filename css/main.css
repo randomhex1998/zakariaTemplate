@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-p{
+p {
     margin-bottom: 0 !important;
 }
 
@@ -25,7 +25,7 @@ p{
     border-color: #ecf0f7;
 }
 
-.off-text-color{
+.off-text-color {
     color: #b1b6c4;
 }
 
@@ -58,6 +58,11 @@ p{
 }
 .text-purple {
     color: #8e44ad;
+}
+
+.purple-hover:hover {
+    background-color: #8e44ad !important;
+    color: white !important;
 }
 
 .text-color {
@@ -129,7 +134,7 @@ p{
     border-radius: 15px;
 }
 
-.over-box-off{
+.over-box-off {
     position: absolute;
     right: 15px;
     left: 15px;
@@ -137,8 +142,8 @@ p{
     z-index: 2;
 }
 
-@media screen and (min-width:992px) {
-    .over-box-off{
+@media screen and (min-width: 992px) {
+    .over-box-off {
         position: absolute;
         right: 15px;
         left: 15px;
@@ -147,8 +152,8 @@ p{
     }
 }
 
-@media screen and (min-width:1132px) {
-    .over-box-off{
+@media screen and (min-width: 1132px) {
+    .over-box-off {
         position: absolute;
         right: 15px;
         left: 15px;
@@ -157,8 +162,8 @@ p{
     }
 }
 
-@media screen and (min-width:1232px) {
-    .over-box-off{
+@media screen and (min-width: 1232px) {
+    .over-box-off {
         position: absolute;
         right: 15px;
         left: 15px;
@@ -167,13 +172,25 @@ p{
     }
 }
 
-.off-text{
+.off-text {
     font-size: 20px;
     font-weight: 600;
     text-align: right !important;
 }
 
-.off-paragraph{
+.off-paragraph {
     border-bottom: 1px dashed #3b4359;
     line-height: 2;
+}
+
+.dash-bottom-line {
+    border-bottom: 1px dashed #D4DBE8;
+}
+
+.mobile-box:hover img{
+    filter: blur(4px);
+}
+
+.mobile-box:hover .mobile-off{
+    transform: translateX(6px);
 }
